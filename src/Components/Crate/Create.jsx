@@ -9,7 +9,7 @@ import { Alert } from 'bootstrap';
 import generateUniqueId from 'generate-unique-id';
 import { data } from '../Service/Service';
 import { Link, useNavigate } from 'react-router-dom';
-import { category } from '../Service/category';
+
 
 
 function Create({ onSubmit }) {
