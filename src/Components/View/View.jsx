@@ -32,11 +32,11 @@ function View() {
 
     };
 
-    // useEffect(() => {
-    //     let a = JSON.stringify(viewData)
-    //     localStorage.setItem("mydata", (a))
+    useEffect(() => {
+        let a = JSON.stringify(viewData)
+        localStorage.setItem("mydata", (a))
 
-    // }, [viewData])
+    }, [viewData])
 
     const navigate = useNavigate()
 
